@@ -9,21 +9,26 @@ Deep learning has seen a major advancement over the years. Mostly it has been us
 
 Day #3 - February 10th
 - What are "tensors" and how are they used in machine learning?
-A tensor is a mathematical contruct that allows us to describe physical quantities. Tensors can have various ranks, eg: scalar is basically a tensor of rank 0(with magnitude and direction), vector is basically a tensor of rank 1 (with magnitude and direction), etc. Tensors are dynamically-sized multidimensional data arrays.
-Usually, tensor calculations will provide a meaningful output if they are prompted on iPython or any interactive shells.
+
+- A tensor is a mathematical contruct that allows us to describe physical quantities. Tensors can have various ranks, eg: scalar is basically a tensor of rank 0(with magnitude and direction), vector is basically a tensor of rank 1 (with magnitude and direction), etc. Tensors are dynamically-sized multidimensional data arrays.
+- Usually, tensor calculations will provide a meaningful output if they are prompted on iPython or any interactive shells.
 
 - What did you notice about the computations that you ran in the TensorFlow programs (i.e interactive models) in the tutorial?
-In TensorFlow, developers are able to create graphs (series of processing nodes). Each node in teh graph represents a mathematical operation, and each edge is a multidimensional data array, or a tensor. TensorFlow supports dataflow programming; dataflow programming models a program as a directed graph of the data flowing between the operations.
-Furthermore, in TensorFlow, developers work to build a computational graph and tyhen execute the graph in order to run the operations.
+
+-In TensorFlow, developers are able to create graphs (series of processing nodes). Each node in teh graph represents a mathematical operation, and each edge is a multidimensional data array, or a tensor. TensorFlow supports dataflow programming; dataflow programming models a program as a directed graph of the data flowing between the operations.
+- Furthermore, in TensorFlow, developers work to build a computational graph and tyhen execute the graph in order to run the operations.
 
 
 Day #2 - February 9th
 - What is the difference between supervised and unsupervised learning?
-Supervised learning usually involves feeding the computer a lot of data so that the computer can be able to make decisions. It takes two forms; classification and regression models. The latter includes numerical quantification to data under study whereas classification models solve categorical problems mostly.
-On the other hand, unsupervised learning is aimed at uncovering patterns and relationships that exist within data. In this form of ML, there is no training. However, a common way for this is clustering eg; K-means clustering. where data is grouped into different groups/clusters based on similarity and differences.
+
+- Supervised learning usually involves feeding the computer a lot of data so that the computer can be able to make decisions. It takes two forms; classification and regression models. The latter includes numerical quantification to data under study whereas classification models solve categorical problems mostly.
+
+- On the other hand, unsupervised learning is aimed at uncovering patterns and relationships that exist within data. In this form of ML, there is no training. However, a common way for this is clustering eg; K-means clustering. where data is grouped into different groups/clusters based on similarity and differences.
 
 - Does scikit-learn have the power to visualize data by itself?
-No, scikit learn is mostly responsible for models and datasets. It is not able to do visualization without being complemented by other packages like graphviz, etc.
+
+-No, scikit learn is mostly responsible for models and datasets. It is not able to do visualization without being complemented by other packages like graphviz, etc.
 
 
 Day #1 - February 8th
