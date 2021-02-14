@@ -2,9 +2,10 @@
 This is a repository for the Spring 2021 AI & Machine Learning virtual trainee program at SureStart, an organization connecting emerging AI talent to comprehensive technical curriculum and industry mentorship.
 
 Day #4 - February 11th
-Deep learning is a suset of machine learning that includes a set of algorithms that mimic the structure and function of the brain in working. It comes in forms such as convolutional neural networks, recurrent neural networks, generative adversarial networks, and recursive neural networks. Deep learning is usually unsupervised or semi-supervised type of ML.
 
-Deep learning has seen a major advancement over the years. Mostly it has been used in Natural Language Processing. As a matter of fact, a big part of NLP is sentmiment analysis and it is very much used in Netflix to classify movies based on user searches and genres.
+-Deep learning is a subset of machine learning that includes a set of algorithms that mimic the structure and function of the brain in working. It comes in forms such as convolutional neural networks, recurrent neural networks, generative adversarial networks, and recursive neural networks. Deep learning is usually unsupervised or semi-supervised type of ML.
+
+-Deep learning has seen a major advancement over the years. Mostly it has been used in Natural Language Processing. As a matter of fact, a big part of NLP is sentmiment analysis and it is very much used in Netflix to classify movies based on user searches and genres.
 
 
 Day #3 - February 10th
