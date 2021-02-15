@@ -7,6 +7,9 @@ Day #4 - February 11th
 
 -Deep learning has seen a major advancement over the years. Mostly it has been used in Natural Language Processing. As a matter of fact, a big part of NLP is sentmiment analysis and it is very much used in Netflix to classify movies based on user searches and genres.
 
+One good one is: http://help.sentiment140.com/for-students/
+-If I were to develop a model to do this, I would use recurrent neural networks (RNNs) as they are conventionally used in any sort of application regarding language. It is also useful to use bidirectional neural networks for this.
+
 
 Day #3 - February 10th
 - What are "tensors" and how are they used in machine learning?
