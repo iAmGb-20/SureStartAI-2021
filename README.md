@@ -12,15 +12,24 @@ I think the game used a good amount of previous datasets that were associated wi
 -**Can you give a real-world example of a biased machine learning model, and share your ideas on how you make this model more fair, inclusive, and
 equitable? Please reflect on why you selected this specific biased model.**
 
-I think a good example is Amazon's Resume Screening Tool that was built in 2014 to automate the hiring process. The model was known to be segregative against women. This is bacause Amazon's computer models were trained to vet applicants by observing patterns in resumes submitted to the company over a 10-year period. Most came from men, a reflection of male dominance across the tech industry. I chose this because Amazon is one of the best software companies in the world and a lot of brilliant minds work there. However, it still had world-class software engineers who made a model that was biased. Therefore, I think scientists today should understand that the future of software and AI in general rest in our hands as engineers. Our competence, skill level, and work experience will not determine if our model is biased or smart enough, or not. We need to actively seek to eliminate bias in decision making so that the oour software can make better decisions that make people's lives better, and not the opposite.\n
+- I think a good example is Amazon's Resume Screening Tool that was built in 2014 to automate the hiring process. The model was known to be segregative against women. This is bacause Amazon's computer models were trained to vet applicants by observing patterns in resumes submitted to the company over a 10-year period. Most came from men, a reflection of male dominance across the tech industry. 
+
+**Why I chose this model?**
+
+- I chose this because Amazon is one of the best software companies in the world and a lot of brilliant minds work there. However, it still had world-class software engineers who made a model that was biased. Therefore, I think scientists today should understand that the future of software and AI in general rest in our hands as engineers. Our competence, skill level, and work experience will not determine if our model is biased or smart enough, or not. We need to actively seek to eliminate bias in decision making so that the oour software can make better decisions that make people's lives better, and not the opposite.
+
 Based on this article:https://searchenterpriseai.techtarget.com/feature/6-ways-to-reduce-different-types-of-bias-in-machine-learning ;
 
 These are the ways to reduce bias in ML:
 
-\t\t - Identify potential sources if bias. These might be based on historical data, correlation fallacies, etc. \n
-\t\t - Prior to collecting and aggregating data for ML model training, organizations should first try to understand what a representative data set should look like. \n
-\t\t - Evaluate ML models after being placed in operation and check for bias when testing as well. \n
-\t\t - It is also important to allow others to examine when and if the models exhibit any form of bias. This is because transparency allows for root-cause analysis of sources of bias to be eliminated in future model iterations. \n
+- Identify potential sources if bias. These might be based on historical data, correlation fallacies, etc. 
+
+- Prior to collecting and aggregating data for ML model training, organizations should first try to understand what a representative data set should look like. 
+
+- Evaluate ML models after being placed in operation and check for bias when testing as well. 
+
+- It is also important to allow others to examine when and if the models exhibit any form of bias. This is because transparency allows for root-cause analysis of sources of bias to be eliminated in future model iterations. 
+
 
 **Day #6 - February 15th**
 Convolutional Neural Networks
