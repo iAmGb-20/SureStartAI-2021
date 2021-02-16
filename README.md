@@ -4,6 +4,7 @@ This is a repository for the Spring 2021 AI & Machine Learning virtual trainee p
 **Day #7 - February 16th**
 
 -**How do you think Machine Learning or AI concepts were utilized in the design of this game?**
+
 I think the game used a good amount of previous datasets that were associated with hiring in major firms in America. These datasets showed the long standing systemic racism as well as inequalities that exist in this country. The orange applicants went to better schools (with more reputation) and had higher skill whereas the blue applicants went to schools with lower reputation and had lower skill. I really enjoyed this game since it reflected alot on how hiring is in the modern world.
 
 -**Can you give a real-world example of a biased machine learning model, and share your ideas on how you make this model more fair, inclusive, and
