@@ -6,11 +6,7 @@ This is a repository for the Spring 2021 AI & Machine Learning virtual trainee p
 Convolutional Neural Networks
 - Convolution
 
-Convolution preserves spatial data between pixels and learns image features by "convolving" filters across an image. We slide the filter over the original image by our stride and compute an element wise multiplication. We add the output to the corresponding index of the feature map. In this sense, filters act as "feature detectors" in images.
-Different filters can produce different feature maps and help in operations such as edge detection, blur, and sharpening.
-In practice, the CNN learns the values of filters during the training process. However, a human still much specify parameters such as the # of filters, filter size, etc. Generally, the more filters we have, the more image features we can extract and the better the system becomes when classifying unseen images.
-The size of a feature map is controlled by depth (# of filters; this creates a "volume"), stride (# of pixels we slide the filter matrix over the input matrix), and zero-padding (padding the input matrix with zeroes on the border so we can apply the filter to bordering elements).
-Non-linearity
+Convolution preserves spatial data between pixels and learns image features by "convolving" filters across an image. We slide the filter over the original image by our stride and compute an element wise multiplication. We add the output to the corresponding index of the feature map. In this sense, filters act as "feature detectors" in images. It is a way to turn the image to a pixelated image to be processed.
 
 After every convolution operation, a non-linear operation (such as ReLU) is applied. This introduces non-linearity and helps our model become more complex.
 Pooling
