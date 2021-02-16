@@ -1,6 +1,26 @@
 # SureStartAI-2021
 This is a repository for the Spring 2021 AI & Machine Learning virtual trainee program at SureStart, an organization connecting emerging AI talent to comprehensive technical curriculum and industry mentorship.
 
+
+**Day #6 - February 15th**
+Convolutional Neural Networks
+- Convolution
+
+Convolution preserves spatial data between pixels and learns image features by "convolving" filters across an image. We slide the filter over the original image by our stride and compute an element wise multiplication. We add the output to the corresponding index of the feature map. In this sense, filters act as "feature detectors" in images.
+Different filters can produce different feature maps and help in operations such as edge detection, blur, and sharpening.
+In practice, the CNN learns the values of filters during the training process. However, a human still much specify parameters such as the # of filters, filter size, etc. Generally, the more filters we have, the more image features we can extract and the better the system becomes when classifying unseen images.
+The size of a feature map is controlled by depth (# of filters; this creates a "volume"), stride (# of pixels we slide the filter matrix over the input matrix), and zero-padding (padding the input matrix with zeroes on the border so we can apply the filter to bordering elements).
+Non-linearity
+
+After every convolution operation, a non-linear operation (such as ReLU) is applied. This introduces non-linearity and helps our model become more complex.
+Pooling
+
+-Pooling, or downsampling, reduces the dimensionality of the feature map but retains important information. Max pooling takes the largest element from the feature map within that window. After pooling, we are left with a reduced spatial size of the input representation.
+Classification
+
+-A fully-connected layer acts as a classifier. The output from the previous convolution and pooling layers represent high-level features of the input image. We use a fully-connecting layer (every neuron in the previous layer is connected to every neuron on the left layer) to use these features for classifying the input image into various classes based on the training dataset. Then backpropogation is used to minimize the output error.
+
+
 **Day #5 - February 12th**
 
 -Today, we explored different components of neural networks, including concepts such as bias, activation functions, weights, densely connected layers, and epochs/batch-size. Furthermore, we learnt how to use tokenization and padding, text pre-processing, as well as using flattening our model so that it can be well used in other layers of the neural network. We explored how to create a convolutional neural network (CNN) that would use NLP techniques to classify news headlines from a Kaggle dataset as sarcastic or not sarcastic.
