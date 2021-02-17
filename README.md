@@ -1,6 +1,26 @@
 # SureStartAI-2021
 This is a repository for the Spring 2021 AI & Machine Learning virtual trainee program at SureStart, an organization connecting emerging AI talent to comprehensive technical curriculum and industry mentorship.
 
+**Day #8 - February 17th**
+
+-Today I learnt about the layers present in Convolutional Neural Networks (CNN). I also explored the difference between fully connected neural networks and CNNs.
+
+**Difference between CNN and fully connected neural networks**
+
+-In practice, it seems that fully connected neural networks have an architecture whereby all neurons connect to all neurons in the next layer. 
+That being the case, it seems that these neural networks are generally tedious and hard to make and manage. This is because the architecture comprises of millions of features making it difficult to classify and analyse features to help in computer vision.
+
+**Convolutional Neural Networks**
+Again, CNNs are the backbone of machine vision and image recognition. This has been the case due to the fact that they have a very intuitive architecture. This type of neural networks uses convolution and pooling to reduce an image to its essential features and then use them to understand and classify the image accordingly. Of course, the hidden layers that make up CNNs are a "blackbox" since there is so much going on. However, we have three main layers and this is how they are and how they work:
+
+- **Convolution layer**: This layer has filters that scan few pixels at a time and then create a feature map that predicts the class to which every feature belongs to. The result from this layer is a vector with classes of features. Usually, we might use more than one convolution layer when it comes to large datasets.
+- **Pooling layer**: The input to this layer is a vector of classes of features. What this layer does is to downsample/flatten the features (break them down by reducing the amount of information in each feature) while maintaining the important information of all the features. Without this feature, we would have slower training since there would be too much information in the feeatures for the model to process. Furthermore, this helps the model to focus on the important information in each feature of the image.
+- In a nutshell, the convolution and pooling layers together break the image into features and analyzes these features to ensure efficiency in training the model.
+
+- **Fully connected layer**: This layer gathers all the input from the convolution and the pooling layers then assigns weights to the features (in form of neurons) so that to help predict the correct labels for each feature. The output is a list of probabilities for different possible labels attached to the image. 
+- The first fully connected will work as aforementioned. However, the **fully connected output layer** gives the final probabilities for each label.
+- The fully connected layer goes through backpropagation process to determine the most accurate weights. Each neuron reecives weights that prioritize the most appropriate label. Finally, the neurons "vote" on each of the labels, and the winner of that vote is the classification decision.
+
 **Day #7 - February 16th**
 
 - Today I learnt about bias in ML and how it can affect the output from ML models. Despite the fact that AI is really helpful, it is not completely fair. Fairness is subjective, however, precision is not. AI models rely heavily on human data input. If the data is skewed or biased, the model will be biased as well. Therefore, the goal of modern day software engineers should be to make models that reflect reality and that are not biased. I believe this could be achieved by using large diverse data sets and focusing on the false negatives in data.
