@@ -3,11 +3,11 @@ This is a repository for the Spring 2021 AI & Machine Learning virtual trainee p
 
 **Day #8 - February 17th**
 
--Today I learnt about the layers present in Convolutional Neural Networks (CNN). I also explored the difference between fully connected neural networks and CNNs.
+- Today I learnt about the layers present in Convolutional Neural Networks (CNN). I also explored the difference between fully connected neural networks and CNNs.
 
 **Difference between CNN and fully connected neural networks**
 
--In practice, it seems that fully connected neural networks have an architecture whereby all neurons connect to all neurons in the next layer. 
+- In practice, it seems that fully connected neural networks have an architecture whereby all neurons connect to all neurons in the next layer. 
 That being the case, it seems that these neural networks are generally tedious and hard to make and manage. This is because the architecture comprises of millions of features making it difficult to classify and analyse features to help in computer vision.
 
 **Convolutional Neural Networks**
