@@ -3,6 +3,10 @@ This is a repository for the Spring 2021 AI & Machine Learning virtual trainee p
 
 **Day #9 - February 18th**
 
+- Today, I worked on building an image classifier with CNNs. I used a dataset that was offered online and then divided the images to classes; Class 0 is dog and class 1 is cat. I used 50 epochs and a batch size of 64 and my model trained as required. Today's work was built on what I did in the previous days with CNNs.
+
+**Day #9 - February 18th**
+
 - Today, I explord the building of a CNN from scratch. I implemented a baseline model for the MNIST database. On top of that, I improved the model using batch normalization as well as depth layer increase. 
 
 - One thing that fascinated me today is that adding more layers does not necessarily make the model more accurate, whereas increasing the number of nodes per layer does. I think it's because in neural networks, one layer's output is the next layer's input. Therefore, adding more layers might just over-flatten the features to the extent that some important features are lost. On the other hand, increasing the number of nodes will increase the ability of feature information being retained, thus, leading to a more efficient and accurate model.
