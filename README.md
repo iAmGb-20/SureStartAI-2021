@@ -1,6 +1,13 @@
 # SureStartAI-2021
 This is a repository for the Spring 2021 AI & Machine Learning virtual trainee program at SureStart, an organization connecting emerging AI talent to comprehensive technical curriculum and industry mentorship.
 
+**Day #9 - February 18th**
+
+- Today, I explord the building of a CNN from scratch. I implemented a baseline model for the MNIST database. On top of that, I improved the model using batch normalization as well as depth layer increase. 
+
+- One thing that fascinated me today is that adding more layers does not necessarily make the model more accurate, whereas increasing the number of nodes per layer does. I think it's because in neural networks, one layer's output is the next layer's input. Therefore, adding more layers might just over-flatten the features to the extent that some important features are lost. On the other hand, increasing the number of nodes will increase the ability of feature information being retained, thus, leading to a more efficient and accurate model.
+
+
 **Day #8 - February 17th**
 
 - Today I learnt about the layers present in Convolutional Neural Networks (CNN). I also explored the difference between fully connected neural networks and CNNs.
