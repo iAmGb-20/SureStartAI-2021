@@ -1,7 +1,7 @@
 # SureStartAI-2021
 This is a repository for the Spring 2021 AI & Machine Learning virtual trainee program at SureStart, an organization connecting emerging AI talent to comprehensive technical curriculum and industry mentorship.
 
-**Day #9 - February 18th**
+**Day #10 - February 19th**
 
 - Today, I worked on building an image classifier with CNNs. I used a dataset that was offered online and then divided the images to classes; Class 0 is dog and class 1 is cat. I used 50 epochs and a batch size of 64 and my model trained as required. Today's work was built on what I did in the previous days with CNNs.
 
