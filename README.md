@@ -1,6 +1,31 @@
 # SureStartAI-2021
 This is a repository for the Spring 2021 AI & Machine Learning virtual trainee program at SureStart, an organization connecting emerging AI talent to comprehensive technical curriculum and industry mentorship.
 
+**Day #16 - February 23rd**
+
+- Activation functions are functions that take the weighted sum input from nodes or data then convert them to some sort of output for another layer or for the output.
+- They mostly work to ensure that data is passed on between different nodes across layers. In most situations, there will be lots of neurons in the hidden layers. Activation functions work to take whatever is received from the nodes to make a tangible/usable output out of it.
+- A good activation function favors good training of the AI model in general.
+- Most common forms of Activation functions are: Rectified Linear Activation (ReLU), Logistic (Sigmoid), and Hyperbolic Tangent (tanh)
+- One advantage of the ReLU function is the it is less susceptible to the vanishing gradient problem. It also is less computationally expensive than sigmoid and tan h because of it's simplicty, as a function that outputs the input directly if it is positive and outputs 0 otherwise. This is also important because it means it can output true zero values. ReLU is commonly used in CNN's, so for example it could potentially be used for classification of dog species.
+- The Sigmoid activation function takes any form of real value input and then outputs a numnber in the range between 0 and 1. It is same function used in logistic function regression algorithm. It is most likely used in output of the neural network model.
+- The function takes any real value as input and outputs values in the range -1 to 1. The larger the input (more positive), the closer the output value will be to 1.0, whereas the smaller the input (more negative), the closer the output will be to -1.0.
+- In most cases, this is the rule of thumb when it comes to the most optimal activation functions to use for hidden layers:
+  - Multilayer Perceptron (MLP): ReLU activation function.
+  - Convolutional Neural Network (CNN): ReLU activation function.
+  - Recurrent Neural Network: Tanh and/or Sigmoid activation function.
+- for the **output layers**, we have: Linear, Logistic, and Softmax
+  - Softmax is mostly used in case we want the model to make a probability vector output.
+  - Linear function is considered to be "no activation". This is because the linear activation function does not change the weighted sum of the input in any way and instead returns the value directly.
+
+- You must choose the activation function for your output layer based on the type of prediction problem that you are solving.
+  - Binary Classification: One node, sigmoid activation.
+  - Multiclass Classification: One node per class, softmax activation.
+  - Multilabel Classification: One node per class, sigmoid activation.
+
+- At the end of the day and the type of output we need, the type of network we are using will greatly help us to determine what to use for the Activation function.
+
+
 **Day #10 - February 19th**
 
 - Today, I worked on building an image classifier with CNNs. I used a dataset that was offered online and then divided the images to classes; Class 0 is dog and class 1 is cat. I used 50 epochs and a batch size of 64 and my model trained as required. Today's work was built on what I did in the previous days with CNNs.
