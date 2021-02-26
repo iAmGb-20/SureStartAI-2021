@@ -3,7 +3,7 @@ This is a repository for the Spring 2021 AI & Machine Learning virtual trainee p
 
 
 
-**Day #17 - February 25rd**
+**Day #17 - February 25th**
 
 - Today I had a hands on experience on how overfitting can be handled with in different ways. Overfitting seems to be a problem whereby the model knows too much hence having very low bias but high variance. We can handle it in different ways: 
 - Reduce overfitting by training the network on more examples.
