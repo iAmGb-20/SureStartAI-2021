@@ -1,6 +1,25 @@
 # SureStartAI-2021
 This is a repository for the Spring 2021 AI & Machine Learning virtual trainee program at SureStart, an organization connecting emerging AI talent to comprehensive technical curriculum and industry mentorship.
 
+
+
+**Day #17 - February 25rd**
+
+- Today I had a hands on experience on how overfitting can be handled with in different ways. Overfitting seems to be a problem whereby the model knows too much hence having very low bias but high variance. We can handle it in different ways: 
+- Reduce overfitting by training the network on more examples.
+- or, Reduce overfitting by changing the complexity of the network
+
+We can change the complexity of a network by changing its network structure and/or the parameters.
+Furthermore, can:
+- reduce the network’s capacity by removing layers or reducing the number of elements in the hidden layers, 
+- or we can apply regularization, which comes down to adding a cost to the loss function for large weights,
+- we can use dropout layers, which will randomly remove certain features by setting them to zero
+
+Reference: https://machinelearningmastery.com/introduction-to-regularization-to-reduce-overfitting-and-improve-generalization-error/
+
+I played with the housing notebook as well to see how it works in different settings. I will play with it again soon.
+
+
 **Day #16 - February 23rd**
 
 - Activation functions are functions that take the weighted sum input from nodes or data then convert them to some sort of output for another layer or for the output.
