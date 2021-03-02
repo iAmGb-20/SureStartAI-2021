@@ -20,6 +20,11 @@ Reference: https://machinelearningmastery.com/introduction-to-regularization-to-
 
 I played with the housing notebook as well to see how it works in different settings. I will play with it again soon.
 
+**Day 22 - March 1st**
+Today I explored various ways of deploying NLP models such as autocomplete models, bots, etc. 
+
+GPT-2 is a great model since it has been trained on a very large dataset. However, bias is all over the internet. There is so much that is also not very good on the internet, therefore, I believe this model should be biased as well. I also think that it could be made more accurate if a diverse number of people were asked to complete various sentences so that the model does not only rely on the internet websites which are very biased, but also rely on input from real people.
+
 
 **Day #16 - February 23rd**
 
