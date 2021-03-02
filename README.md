@@ -1,6 +1,13 @@
 # SureStartAI-2021
 This is a repository for the Spring 2021 AI & Machine Learning virtual trainee program at SureStart, an organization connecting emerging AI talent to comprehensive technical curriculum and industry mentorship.
 
+
+**Day 22 - March 1st**
+- Today I explored various ways of deploying NLP models such as autocomplete models, bots, etc. 
+
+- GPT-2 is a great model since it has been trained on a very large dataset. However, bias is all over the internet. There is so much that is also not very good on the internet, therefore, I believe this model should be biased as well. I also think that it could be made more accurate if a diverse number of people were asked to complete various sentences so that the model does not only rely on the internet websites which are very biased, but also rely on input from real people.
+
+
 **Day #18 - February 26th**
 - Today I understood what autoencoding and upsampling means and what its significance is to machine learning. Upsampling and downsampling are two phenomena that help us manipulate our input data either for the model to use as training(downsampling) or for the sake of forming the inputs based on the sets of features (upsampling).
 
@@ -19,11 +26,6 @@ Furthermore, can:
 Reference: https://machinelearningmastery.com/introduction-to-regularization-to-reduce-overfitting-and-improve-generalization-error/
 
 I played with the housing notebook as well to see how it works in different settings. I will play with it again soon.
-
-**Day 22 - March 1st**
-Today I explored various ways of deploying NLP models such as autocomplete models, bots, etc. 
-
-GPT-2 is a great model since it has been trained on a very large dataset. However, bias is all over the internet. There is so much that is also not very good on the internet, therefore, I believe this model should be biased as well. I also think that it could be made more accurate if a diverse number of people were asked to complete various sentences so that the model does not only rely on the internet websites which are very biased, but also rely on input from real people.
 
 
 **Day #16 - February 23rd**
