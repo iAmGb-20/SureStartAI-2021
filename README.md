@@ -2,7 +2,7 @@
 This is a repository for the Spring 2021 AI & Machine Learning virtual trainee program at SureStart, an organization connecting emerging AI talent to comprehensive technical curriculum and industry mentorship.
 
 **Day #18 - February 26th**
-Today I understood what autoencoding and upsampling means and what its significance is to machine learning. Upsampling and downsampling are two phenomena that help us manipulate our input data either for the model to use as training(downsampling) or for the sake of forming the inputs based on the sets of features (upsampling).
+- Today I understood what autoencoding and upsampling means and what its significance is to machine learning. Upsampling and downsampling are two phenomena that help us manipulate our input data either for the model to use as training(downsampling) or for the sake of forming the inputs based on the sets of features (upsampling).
 
 **Day #17 - February 25th**
 
